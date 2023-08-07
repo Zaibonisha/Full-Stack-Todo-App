@@ -16,7 +16,7 @@
 }
 
 body {
-	background-color: var(--dark-alt);
+	background-color: pink;
 	color: var(--light);
 }
 
@@ -40,7 +40,7 @@ h4 {
 
 .todo {
 	position: relative;
-	background-color: var(--dark);
+	background-color: blue;
 	padding: 16px;
 	border-radius: 16px;
 	display: flex;
@@ -59,13 +59,13 @@ h4 {
 	height: 20px;
 	margin-right: 16px;
 	border-radius: 50%;
-	background-color: var(--dark-alt);
+	background-color: purple;
 	background-image: linear-gradient(to bottom, transparent, transparent);
 	transition: 0.4s;
 }
 
 .todo.is-complete .checkbox {
-	background-color: var(--primary);
+	background-color: pink;
 	background-image: linear-gradient(to bottom, var(--primary), var(--secondary));
 }
 
@@ -80,14 +80,14 @@ h4 {
 .todo .delete-todo {
 	position: absolute;
 	top: 50%;
-  right: 16px;
+    right: 16px;
 	transform: translateY(-50%);
 	
 	color: var(--light);
 	width: 24px;
 	height: 24px;
 	border-radius: 50%;
-	background-color: #AF1E2D;
+	background-color: black;
 	display: flex;
 	align-items: center;
 	justify-content: center;
