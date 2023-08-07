@@ -1,10 +1,7 @@
 :root {
 	--primary: #D81E5B;
 	--secondary: #8A4EFC;
-	--light: #EEE;
-	--light-alt: #61759b;
-	--dark: #131A26;
-	--dark-alt: #202B3E;
+	
 }
 
 * {
@@ -16,7 +13,7 @@
 }
 
 body {
-	background-color: pink;
+	background-color: #ffafcc;
 	color: var(--light);
 }
 
@@ -40,7 +37,7 @@ h4 {
 
 .todo {
 	position: relative;
-	background-color: blue;
+	background-color: #f07167;
 	padding: 16px;
 	border-radius: 16px;
 	display: flex;
@@ -59,14 +56,14 @@ h4 {
 	height: 20px;
 	margin-right: 16px;
 	border-radius: 50%;
-	background-color: purple;
+	background-color: #a2d2ff;
 	background-image: linear-gradient(to bottom, transparent, transparent);
 	transition: 0.4s;
 }
 
 .todo.is-complete .checkbox {
-	background-color: pink;
-	background-image: linear-gradient(to bottom, var(--primary), var(--secondary));
+	background-color: #7209b7;
+	
 }
 
 .todo .text {
@@ -80,14 +77,14 @@ h4 {
 .todo .delete-todo {
 	position: absolute;
 	top: 50%;
-    right: 16px;
+  right: 16px;
 	transform: translateY(-50%);
 	
 	color: var(--light);
 	width: 24px;
 	height: 24px;
 	border-radius: 50%;
-	background-color: black;
+	background-color: #ef233c;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -108,8 +105,8 @@ h4 {
 	font-size: 28px;
 	font-weight: 900;
 	color: var(--light);
-	background-color: var(--primary);
-	background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+	background-color: #b08968;
+	
 	cursor: pointer;
 }
 .popup {
@@ -120,7 +117,7 @@ h4 {
 
 	width: 100%;
 	max-width: 400px;
-	background-color: var(--light);
+	background-color: #be95c4;
 	padding: 32px;
 	border-radius: 16px;
 	box-shadow: 0px 4px 32px var(--dark);
@@ -138,7 +135,7 @@ h4 {
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--primary);
+	background-color: #ef233c;
 	color: var(--light);
 	border-radius: 50%;
 }
@@ -165,7 +162,7 @@ h4 {
 .button {
 	padding: 16px 32px;
 	border-radius: 999px;
-	background-image: linear-gradient(to right, var(--primary), var(--secondary));
+	background-color: #ffcad4;
 	display: inline-block;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -174,4 +171,3 @@ h4 {
 	text-align: center;
 	cursor: pointer;
 }
-
