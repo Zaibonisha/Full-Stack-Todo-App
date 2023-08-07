@@ -10,6 +10,9 @@ To start the server cd into server in the project directory and run:
 
 
 To start the front-end cd into front-end  in the project directory and run:
+### `npm install` 
+
+Then run:
 ### `npm start`
 
 
